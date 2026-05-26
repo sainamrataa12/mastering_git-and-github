@@ -17,4 +17,6 @@ console.log("test")
 //inorder to resolve merge conflict first we move to main branch using git checkout main then we type git pull to make local repo look like remo repo as now local repo and remote
 //repo main branch looks same. then we switch to our branch we made changes like git checkout dev branch other than dev_jsm and then we use merge command
 //like git merge main which will merge the changes of main branch in to cur branch Asks to resolve merge conflict occured.
-//
+//then we revolve these conflict by going to commit in window shell and clicking resolve conflicts and selecting merge and then deciding which code to keep.
+//Then again git add ., commiting changes and pushing them to remote repo. Then if we check pull req once again, there is no issue for that prev req 
+//and we can merge req.
