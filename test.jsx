@@ -14,5 +14,7 @@ console.log("test")
 //accepted by all then it is merged to main branch. To merge these changes in local req we use git pull command.
 //Merge conflict- when mul developers tries to change same line of code. It happens. Then git confuses and manually asks developers to decide which change to keep and
 //merge
-
-
+//inorder to resolve merge conflict first we move to main branch using git checkout main then we type git pull to make local repo look like remo repo as now local repo and remote
+//repo main branch looks same. then we switch to our branch we made changes like git checkout dev branch other than dev_jsm and then we use merge command
+//like git merge main which will merge the changes of main branch in to cur branch Asks to resolve merge conflict occured.
+//
